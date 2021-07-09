@@ -1,13 +1,13 @@
 [
     {
         "id": 0,
-        "grupo": "frutas",
-        "nombre": "frutita",
+        "grupo": "Verduras",
+        "nombre": "Verduras",
         "elementos": 
         [
             {
                 "id": 10,
-                "nombreElelemto": "jitomate",
+                "nombreElelemto": "Chile chipotle seco",
                 "kcal": 1,
                 "proteinas": 1,
                 "carbohidratos": 100
@@ -15,7 +15,7 @@
             },
             {
                 "id": 11,
-                "nombreElelemto": "tomate",
+                "nombreElelemto": "Jitomate bola",
                 "kcal": 10,
                 "proteinas": 10,
                 "carbohidratos": 120
@@ -23,7 +23,7 @@
             },
             {
                 "id": 12,
-                "nombreElelemto": "pepino",
+                "nombreElelemto": "Zanahoria miniatura cruda",
                 "kcal": 12,
                 "proteinas": 13,
                 "carbohidratos": 130

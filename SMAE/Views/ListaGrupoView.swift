@@ -10,10 +10,12 @@ import SwiftUI
 struct ListaGrupoView: View {
     var comestibles : [Datos.Elementos]
     var body: some View {
-        VStack(spacing: 0){
-            ForEach(comestibles){ come in
-                NavigationLink(destination: DisenoItemListView(datos: come)){
-                    ItemGrupoView(comidas: come)
+        ScrollView{
+            VStack(spacing: 0){
+                ForEach(comestibles){ come in
+                    NavigationLink(destination: DisenoItemListView(datos: come)){
+                        ItemGrupoView(comidas: come)
+                    }.navigationTitle("Objetos")
                 }
             }
         }

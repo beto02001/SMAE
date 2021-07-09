@@ -20,7 +20,7 @@ struct DisenoItemListView: View {
                         .padding(.vertical, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                         .background(Color .white)
                         .foregroundColor(.red)
-                        .offset(x:-100 ,y: 125)
+                        .offset(x:-85 ,y: 125)
                         
                 }.ignoresSafeArea()
                 HStack{
@@ -80,7 +80,7 @@ struct DisenoItemListView: View {
                     Text("\(datos.carbohidratos) mg")
                         .modifier(disenoDatos(colorletra: "blanco", colorFondo: "gris", radio: 20))
                 }
-        }
+        }.navigationTitle(datos.nombreElelemto)
         .background(Color("azulOscuro"))
     }
 }
