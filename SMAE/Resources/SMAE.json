@@ -1,0 +1,188 @@
+[
+    {
+        "id": 0,
+        "grupo": "frutas",
+        "nombre": "frutita",
+        "elementos": 
+        [
+            {
+                "id": 10,
+                "nombreElelemto": "jitomate",
+                "kcal": 1,
+                "proteinas": 1,
+                "carbohidratos": 100
+                
+            },
+            {
+                "id": 11,
+                "nombreElelemto": "tomate",
+                "kcal": 10,
+                "proteinas": 10,
+                "carbohidratos": 120
+                
+            },
+            {
+                "id": 12,
+                "nombreElelemto": "pepino",
+                "kcal": 12,
+                "proteinas": 13,
+                "carbohidratos": 130
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "grupo": "carne",
+        "nombre": "Verdurita",
+        "elementos":
+        [
+            {
+                "id": 20,
+                "nombreElelemto": "nicarahua",
+                "kcal": 21,
+                "proteinas": 21,
+                "carbohidratos": 21
+                
+            },
+            {
+                "id": 21,
+                "nombreElelemto": "Lechuga",
+                "kcal": 0,
+                "proteinas": 0,
+                "carbohidratos": 0
+                
+            },
+            {
+                "id": 22,
+                "nombreElelemto": "Pepino",
+                "kcal": 102,
+                "proteinas": 103,
+                "carbohidratos": 103
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "grupo": "cereales",
+        "nombre": "frutita",
+        "elementos":
+        [
+            {
+                "id": 30,
+                "nombreElelemto": "Plaatano",
+                "kcal": 1,
+                "proteinas": 1,
+                "carbohidratos": 1
+                
+            },
+            {
+                "id": 31,
+                "nombreElelemto": "Manzana",
+                "kcal": 10,
+                "proteinas": 10,
+                "carbohidratos": 10
+                
+            },
+            {
+                "id": 32,
+                "nombreElelemto": "Pera",
+                "kcal": 12,
+                "proteinas": 13,
+                "carbohidratos": 13
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "grupo": "lacteos",
+        "nombre": "Verdurita",
+        "elementos":
+        [
+            {
+                "id": 40,
+                "nombreElelemto": "Jitomate",
+                "kcal": 21,
+                "proteinas": 21,
+                "carbohidratos": 21
+                
+            },
+            {
+                "id": 41,
+                "nombreElelemto": "Lechuga",
+                "kcal": 0,
+                "proteinas": 0,
+                "carbohidratos": 0
+                
+            },
+            {
+                "id": 42,
+                "nombreElelemto": "Pepino",
+                "kcal": 102,
+                "proteinas": 103,
+                "carbohidratos": 103
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "grupo": "cereales",
+        "nombre": "frutita",
+        "elementos":
+        [
+            {
+                "id": 50,
+                "nombreElelemto": "Plaatano",
+                "kcal": 1,
+                "proteinas": 1,
+                "carbohidratos": 1
+                
+            },
+            {
+                "id": 51,
+                "nombreElelemto": "Manzana",
+                "kcal": 10,
+                "proteinas": 10,
+                "carbohidratos": 10
+                
+            },
+            {
+                "id": 52,
+                "nombreElelemto": "Pera",
+                "kcal": 12,
+                "proteinas": 13,
+                "carbohidratos": 13
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "grupo": "lacteos",
+        "nombre": "Verdurita",
+        "elementos":
+        [
+            {
+                "id": 60,
+                "nombreElelemto": "Jitomate",
+                "kcal": 21,
+                "proteinas": 21,
+                "carbohidratos": 21
+                
+            },
+            {
+                "id": 61,
+                "nombreElelemto": "Lechuga",
+                "kcal": 0,
+                "proteinas": 0,
+                "carbohidratos": 0
+                
+            },
+            {
+                "id": 62,
+                "nombreElelemto": "Pepino",
+                "kcal": 102,
+                "proteinas": 103,
+                "carbohidratos": 103
+            }
+        ]
+    }
+]

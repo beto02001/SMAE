@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Elementos" representedClassName="Elementos" syncable="YES" codeGenerationType="class">
+        <attribute name="carbohidratos" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="idelemento" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kcal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lipidos" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nombreelemento" optional="YES" attributeType="String"/>
+        <attribute name="proteinas" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Elementos" predicateString="&quot;SELECT * FROM Elementos&quot;"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Grupos" representedClassName="Grupos" syncable="YES" codeGenerationType="class">
+        <attribute name="grupo" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="nombreiimg" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Grupos" positionX="-47.3515625" positionY="-58.08203125" width="227.8515625" height="28"/>
+        <element name="Elementos" positionX="269.48828125" positionY="-80.21875" width="246.9296875" height="41"/>
+    </elements>
+</model>
