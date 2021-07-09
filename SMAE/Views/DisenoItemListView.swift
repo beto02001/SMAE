@@ -25,7 +25,7 @@ struct DisenoItemListView: View {
                 }.ignoresSafeArea()
                 HStack{
                     VStack(spacing: 0){
-                        Text("Cantidad sigerida")
+                        Text("Cantidad sugerida")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "azulClaro", radio: 20))
                             
                         Text("\(datos.kcal) pieza")
@@ -75,10 +75,10 @@ struct DisenoItemListView: View {
                     }
                 }.padding()
                 VStack(spacing: 0){
-                    Text("Hidratos de carbono")
+                    Text("Micronutrimento")
                         .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "blanco", radio: 20))
                     Text("\(datos.carbohidratos) mg")
-                        .modifier(disenoDatos(colorletra: "blanco", colorFondo: "gris", radio: 20))
+                        .modifier(disenoDatos(colorletra: "blanco", colorFondo: "gris", radio: 10))
                 }
         }.navigationTitle(datos.nombreElelemto)
         .background(Color("azulOscuro"))

@@ -17,7 +17,7 @@ struct Datos: Codable, Identifiable{
     struct Elementos: Codable, Identifiable{
         var id: Int
         let nombreElelemto: String
-        let kcal: Float
+        let kcal: Int
         let proteinas: Float
         let carbohidratos: Float
     }
