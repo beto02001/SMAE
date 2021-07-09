@@ -8,9 +8,6 @@
 import Foundation
 
 var alimentos: [Datos] = load("SMAE.json")
-//var comidas: [Comidas] = load("SMAE.json")
-
-
 
 func load<T: Decodable>(_ filename: String) -> T {
     let dato: Data
@@ -33,4 +30,3 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
-
