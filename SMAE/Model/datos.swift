@@ -22,13 +22,3 @@ struct Datos: Codable, Identifiable{
         let carbohidratos: Float
     }
 }
-
-struct Comidas: Codable{
-    let nombreElemento: String
-    let kcal: Float
-    let proteinas: Float
-    let carbohidratos: Float
-}
-
-
-
