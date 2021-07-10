@@ -24,7 +24,7 @@ struct DisenoItemListView: View {
                         
                 }.ignoresSafeArea()
                 HStack{
-                    fondo()
+                    DatosView()
                 }
         }.navigationTitle(datos.nombreElelemto)
         .background(Color("azulOscuro"))

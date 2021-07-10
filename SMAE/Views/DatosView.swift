@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct fondo: View {
+struct DatosView: View {
     var body: some View {
         VStack {
             HStack{
@@ -68,6 +68,6 @@ struct fondo: View {
 
 struct fondo_Previews: PreviewProvider {
     static var previews: some View {
-        fondo()
+        DatosView()
     }
 }

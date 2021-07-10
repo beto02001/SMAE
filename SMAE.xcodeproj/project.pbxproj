@@ -18,7 +18,7 @@
 		D1287D2F268E71880044C25F /* ListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1287D2E268E71880044C25F /* ListaView.swift */; };
 		D15FD59E2694321E004AA399 /* Alimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15FD59D2694321E004AA399 /* Alimentos.swift */; };
 		D185649F269575B60096387D /* ListaGrupoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185649E269575B60096387D /* ListaGrupoView.swift */; };
-		D18564A126957C7C0096387D /* fondo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18564A026957C7C0096387D /* fondo.swift */; };
+		D18564A126957C7C0096387D /* DatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18564A026957C7C0096387D /* DatosView.swift */; };
 		D1A7F77A2698C1E600D5B864 /* Modificadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7F7792698C1E600D5B864 /* Modificadores.swift */; };
 		D1BE62AB26959661008719F0 /* DisenoItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BE62AA26959661008719F0 /* DisenoItemListView.swift */; };
 		D1C93671268EEC30005E1FD6 /* datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C93670268EEC30005E1FD6 /* datos.swift */; };
@@ -39,7 +39,7 @@
 		D1287D2E268E71880044C25F /* ListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaView.swift; sourceTree = "<group>"; };
 		D15FD59D2694321E004AA399 /* Alimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alimentos.swift; sourceTree = "<group>"; };
 		D185649E269575B60096387D /* ListaGrupoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaGrupoView.swift; sourceTree = "<group>"; };
-		D18564A026957C7C0096387D /* fondo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fondo.swift; sourceTree = "<group>"; };
+		D18564A026957C7C0096387D /* DatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosView.swift; sourceTree = "<group>"; };
 		D1A7F7792698C1E600D5B864 /* Modificadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modificadores.swift; sourceTree = "<group>"; };
 		D1BE62AA26959661008719F0 /* DisenoItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisenoItemListView.swift; sourceTree = "<group>"; };
 		D1C93670268EEC30005E1FD6 /* datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datos.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				D1287D2C268E6F970044C25F /* TarjetaListView.swift */,
 				D1287D2E268E71880044C25F /* ListaView.swift */,
 				D185649E269575B60096387D /* ListaGrupoView.swift */,
-				D18564A026957C7C0096387D /* fondo.swift */,
+				D18564A026957C7C0096387D /* DatosView.swift */,
 				D103F9D526960DCB004EFDE0 /* ItemGrupoView.swift */,
 			);
 			path = Views;
@@ -224,7 +224,7 @@
 				D15FD59E2694321E004AA399 /* Alimentos.swift in Sources */,
 				D185649F269575B60096387D /* ListaGrupoView.swift in Sources */,
 				D1C93671268EEC30005E1FD6 /* datos.swift in Sources */,
-				D18564A126957C7C0096387D /* fondo.swift in Sources */,
+				D18564A126957C7C0096387D /* DatosView.swift in Sources */,
 				D1287D2D268E6F970044C25F /* TarjetaListView.swift in Sources */,
 				D103F9D626960DCB004EFDE0 /* ItemGrupoView.swift in Sources */,
 				D1287D17268E2EC70044C25F /* ContentView.swift in Sources */,
