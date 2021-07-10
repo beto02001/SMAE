@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct fondo: View {
     var body: some View {
         VStack {
