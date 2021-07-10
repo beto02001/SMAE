@@ -7,6 +7,7 @@
         [
             {
                 "id": 10,
+                "grupo": "Verduras",
                 "nombreElelemto": "Chile chipotle seco",
                 "cantidad": "2 piezas",
                 "peso": "Bruto: 10g \nNeto: 8g",
@@ -18,6 +19,7 @@
             },
             {
                 "id": 11,
+                "grupo": "Verduras",
                 "nombreElelemto": "Jitomate bola",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 123g \nNeto: 108g",
@@ -29,6 +31,7 @@
             },
             {
                 "id": 12,
+                "grupo": "Verduras",
                 "nombreElelemto": "Zanahoria miniatura cruda",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 123g \nNeto: 108g",
@@ -40,6 +43,7 @@
             },
             {
                 "id": 13,
+                "grupo": "Verduras",
                 "nombreElelemto": "Pimiento amarillo crudo chico",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 75g \nNeto: 64g",
@@ -51,6 +55,7 @@
             },
             {
                 "id": 14,
+                "grupo": "Verduras",
                 "nombreElelemto": "Pimiento rojo crudo chico",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 75g \nNeto: 64g",
@@ -62,6 +67,7 @@
             },
             {
                 "id": 15,
+                "grupo": "Verduras",
                 "nombreElelemto": "calabaza cruda alargada",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 75g \nNeto: 64g",
@@ -73,6 +79,7 @@
             },
             {
                 "id": 16,
+                "grupo": "Verduras",
                 "nombreElelemto": "Germen de alfalfa crudo",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 75g \nNeto: 64g",
@@ -84,6 +91,7 @@
             },
             {
                 "id": 17,
+                "grupo": "Verduras",
                 "nombreElelemto": "Nopal crudo",
                 "cantidad": "1 pieza",
                 "peso": "Bruto: 75g \nNeto: 64g",
@@ -97,8 +105,8 @@
     },
     {
         "id": 1,
-        "grupo": "fruta",
-        "nombre": "Verdurita",
+        "grupo": "Frutas",
+        "nombre": "Frutas",
         "elementos":
         [
             {

@@ -11,7 +11,7 @@ struct ListaView: View {
     var body: some View {
         NavigationView{
             List(alimentos){ alimento in
-                NavigationLink(destination: ListaGrupoView(comestibles: alimento.elementos)){
+                NavigationLink(destination: ListaGrupoView(comestibles: alimento.elementos, grupo: alimento.grupo)){
                     TarjetaListView(grupos: alimento)
                 }
             }.navigationTitle("Conjuntos")

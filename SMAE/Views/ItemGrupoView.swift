@@ -9,17 +9,18 @@ import SwiftUI
 
 struct ItemGrupoView: View {
     var comidas: Datos.Elementos
+    var grupo: String
     var body: some View {
         VStack{
             Image(comidas.nombreElelemto)
                 .resizable()
-                .frame(height: 280)
+                .frame(height: 270)
             HStack(alignment: .center){
-                Image("cereales")
+                Image(grupo)
                     .resizable()
                     .clipShape(Circle())
-                    .frame(width: 40, height: 40, alignment: .leading)
-                    .overlay(Circle().stroke(Color .white, lineWidth: 2))
+                    .frame(width: 40, height: 40, alignment: .center)
+                    .overlay(Circle().stroke(Color .white, lineWidth: 1))
                     
                 VStack(alignment: .leading){
                     Text(comidas.nombreElelemto)
@@ -28,9 +29,10 @@ struct ItemGrupoView: View {
                         .font(.title2)
                     Text("2 porciones")
                         .foregroundColor(Color("azulClaro"))
-                }.padding()
+                }
                 Spacer()
-            }.padding()
+            }.padding(.bottom, 25)
+            .padding(.leading)
         }.background(Color("azulOscuro"))
         
     }
@@ -38,6 +40,6 @@ struct ItemGrupoView: View {
 
 struct ItemGrupoView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemGrupoView(comidas: alimentos[0].elementos[0])
+        ItemGrupoView(comidas: alimentos[0].elementos[0], grupo: "")
     }
 }
