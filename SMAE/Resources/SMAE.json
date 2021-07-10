@@ -3,13 +3,13 @@
         "id": 0,
         "grupo": "Verduras",
         "nombre": "Verduras",
-        "elementos": 
+        "elementos":
         [
             {
                 "id": 10,
                 "nombreElelemto": "Chile chipotle seco",
                 "cantidad": "2 piezas",
-                "peso": "Bruto: 10g \nNeto: 8g",
+                "peso": "Bruto: 10g \n Neto: 8g",
                 "kcal": 29,
                 "proteinas": 1.2,
                 "lipidos": 0.5,
@@ -30,13 +30,13 @@
             {
                 "id": 12,
                 "nombreElelemto": "Zanahoria miniatura cruda",
-                "cantidad": "1 pieza",
-                "peso": "Bruto: 123g \nNeto: 108g",
-                "kcal": 19,
-                "proteinas": 1.0,
-                "lipidos": 0.2,
-                "carbohidratos": 4.2,
-                "micronutrimento": "Potasio: 256 mg"
+                "cantidad": "4 piezas",
+                "peso": "Bruto: 60g \nNeto: 60g",
+                "kcal": 21,
+                "proteinas": 0.4,
+                "lipidos": 0.1,
+                "carbohidratos": 4.9,
+                "micronutrimento": "Vitamina A: 414 mg RE"
             },
             {
                 "id": 13,
@@ -58,40 +58,40 @@
                 "proteinas": 0.7,
                 "lipidos": 0.1,
                 "carbohidratos": 4.0,
-                "micronutrimento": "Ácido ascórbico:116.9 mg"
+                "micronutrimento": "Ácido ascórbico: 116.9 mg"
             },
             {
                 "id": 15,
                 "nombreElelemto": "calabaza cruda alargada",
                 "cantidad": "1 pieza",
-                "peso": "Bruto: 75g \nNeto: 64g",
-                "kcal": 17,
-                "proteinas": 0.7,
+                "peso": "Bruto: 111g \nNeto: 91g",
+                "kcal": 21,
+                "proteinas": 1.6,
                 "lipidos": 0.1,
-                "carbohidratos": 4.0,
-                "micronutrimento": "Ácido ascórbico:116.9 mg"
+                "carbohidratos": 3.4,
+                "micronutrimento": "Ninguno"
             },
             {
                 "id": 16,
                 "nombreElelemto": "Germen de alfalfa crudo",
-                "cantidad": "1 pieza",
-                "peso": "Bruto: 75g \nNeto: 64g",
-                "kcal": 17,
-                "proteinas": 0.7,
-                "lipidos": 0.1,
-                "carbohidratos": 4.0,
-                "micronutrimento": "Ácido ascórbico:116.9 mg"
+                "cantidad": "3 Tazas",
+                "peso": "Bruto: 99g \nNeto: 99g",
+                "kcal": 23,
+                "proteinas": 4.0,
+                "lipidos": 0.7,
+                "carbohidratos": 2.1,
+                "micronutrimento": "Ninguno"
             },
             {
                 "id": 17,
                 "nombreElelemto": "Nopal crudo",
-                "cantidad": "1 pieza",
-                "peso": "Bruto: 75g \nNeto: 64g",
-                "kcal": 17,
-                "proteinas": 0.7,
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 140g \nNeto: 134g",
+                "kcal": 22,
+                "proteinas": 1.8,
                 "lipidos": 0.1,
-                "carbohidratos": 4.0,
-                "micronutrimento": "Ácido ascórbico:116.9 mg"
+                "carbohidratos": 4.5,
+                "micronutrimento": "Fibra: 3.2 mg"
             }
         ]
     },
@@ -103,151 +103,71 @@
         [
             {
                 "id": 20,
-                "nombreElelemto": "nicarahua",
-                "kcal": 21,
-                "proteinas": 21,
-                "carbohidratos": 21
-                
+                "nombreElelemto": "Arandano seco con azucar",
+                "cantidad": "1/2 taza",
+                "peso": "Bruto: 5g \nNeto: 5g",
+                "kcal": 51,
+                "proteinas": 0.0,
+                "lipidos": 0.3,
+                "carbohidratos": 13.6,
+                "micronutrimento": "Ninguno"
             },
             {
                 "id": 21,
-                "nombreElelemto": "Lechuga",
-                "kcal": 0,
-                "proteinas": 0,
-                "carbohidratos": 0
-                
+                "nombreElelemto": "Uva",
+                "cantidad": "18 piezas",
+                "peso": "Bruto: 126g \nNeto: 86g",
+                "kcal": 61,
+                "proteinas": 0.6,
+                "lipidos": 0.5,
+                "carbohidratos": 15.3,
+                "micronutrimento": "Ninguno"
             },
             {
                 "id": 22,
-                "nombreElelemto": "Pepino",
-                "kcal": 102,
-                "proteinas": 103,
-                "carbohidratos": 103
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "grupo": "cereales",
-        "nombre": "frutita",
-        "elementos":
-        [
-            {
-                "id": 30,
-                "nombreElelemto": "Plaatano",
-                "kcal": 1,
-                "proteinas": 1,
-                "carbohidratos": 1
-                
+                "nombreElelemto": "Guayaba",
+                "cantidad": "3 piezas",
+                "peso": "Bruto: 135g \nNeto: 124g",
+                "kcal": 63,
+                "proteinas": 1.0,
+                "lipidos": 0.7,
+                "carbohidratos": 14.8,
+                "micronutrimento": "Fibra: 7g\nÁcido ascórbico: 227.3 mg\nPotasio: 352.7"
             },
             {
-                "id": 31,
-                "nombreElelemto": "Manzana",
-                "kcal": 10,
-                "proteinas": 10,
-                "carbohidratos": 10
-                
+                "id": 23,
+                "nombreElelemto": "Naranja",
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 242g \nNeto: 252g",
+                "kcal": 72,
+                "proteinas": 1.4,
+                "lipidos": 0.2,
+                "carbohidratos": 18.0,
+                "micronutrimento": "Fibra: 3.7g\nÁcido ascórbico: 80.8 mg\nÁcido fólico: 57.7mg\nPotasio: 352.7"
             },
             {
-                "id": 32,
-                "nombreElelemto": "Pera",
-                "kcal": 12,
-                "proteinas": 13,
-                "carbohidratos": 13
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "grupo": "lacteos",
-        "nombre": "Verdurita",
-        "elementos":
-        [
-            {
-                "id": 40,
-                "nombreElelemto": "Jitomate",
-                "kcal": 21,
-                "proteinas": 21,
-                "carbohidratos": 21
-                
+                "id": 24,
+                "nombreElelemto": "Plátano",
+                "cantidad": "1/2 pieza",
+                "peso": "Bruto: 80g \nNeto: 54g",
+                "kcal": 48,
+                "proteinas": 0.6,
+                "lipidos": 0.2,
+                "carbohidratos": 12.4,
+                "micronutrimento": "Ninguno"
             },
             {
-                "id": 41,
-                "nombreElelemto": "Lechuga",
-                "kcal": 0,
-                "proteinas": 0,
-                "carbohidratos": 0
-                
-            },
-            {
-                "id": 42,
-                "nombreElelemto": "Pepino",
-                "kcal": 102,
-                "proteinas": 103,
-                "carbohidratos": 103
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "grupo": "cereales",
-        "nombre": "frutita",
-        "elementos":
-        [
-            {
-                "id": 50,
-                "nombreElelemto": "Plaatano",
-                "kcal": 1,
-                "proteinas": 1,
-                "carbohidratos": 1
-                
-            },
-            {
-                "id": 51,
-                "nombreElelemto": "Manzana",
-                "kcal": 10,
-                "proteinas": 10,
-                "carbohidratos": 10
-                
-            },
-            {
-                "id": 52,
-                "nombreElelemto": "Pera",
-                "kcal": 12,
-                "proteinas": 13,
-                "carbohidratos": 13
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "grupo": "lacteos",
-        "nombre": "Verdurita",
-        "elementos":
-        [
-            {
-                "id": 60,
-                "nombreElelemto": "Jitomate",
-                "kcal": 21,
-                "proteinas": 21,
-                "carbohidratos": 21
-                
-            },
-            {
-                "id": 61,
-                "nombreElelemto": "Lechuga",
-                "kcal": 0,
-                "proteinas": 0,
-                "carbohidratos": 0
-                
-            },
-            {
-                "id": 62,
-                "nombreElelemto": "Pepino",
-                "kcal": 102,
-                "proteinas": 103,
-                "carbohidratos": 103
+                "id": 25,
+                "nombreElelemto": "Frambuesa",
+                "cantidad": "1 taza",
+                "peso": "Bruto: 123g \nNeto: 123g",
+                "kcal": 64,
+                "proteinas": 1.5,
+                "lipidos": 0.8,
+                "carbohidratos": 14.7,
+                "micronutrimento": "Fibra: 8.0 mg\nÁcido ascórbico: 31.0 mg"
             }
         ]
     }
 ]
+

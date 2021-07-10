@@ -17,8 +17,12 @@ struct Datos: Codable, Identifiable{
     struct Elementos: Codable, Identifiable{
         var id: Int
         let nombreElelemto: String
+        let cantidad: String
+        let peso: String
         let kcal: Int
         let proteinas: Float
+        let lipidos: Float
         let carbohidratos: Float
+        let micronutrimento: String
     }
 }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 struct DatosView: View {
+    var datos: Datos.Elementos
     var body: some View {
         VStack {
             HStack{
@@ -14,21 +15,21 @@ struct DatosView: View {
                     VStack(spacing: 0){
                         Text("Cantidad sugerida")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "azulClaro", radio: 20))
-                        Text("dsfs) pieza")
+                        Text(datos.cantidad)
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "azulIntermedio", radio: 10))
                     }.padding(.bottom)
                     VStack(spacing: 0){
                         Text("Energia")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "amarillo", radio: 20))
 
-                        Text("12 kcal")
+                        Text("\(datos.kcal) kcal")
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "amarilloOscuro", radio: 10))
                     }.padding(.bottom)
                     VStack(spacing: 0){
                         Text("Lipidos")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "amarillo", radio: 20))
                         
-                        Text("dfs g")
+                        Text("\(datos.lipidos) g")
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "amarilloOscuro", radio: 10))
                     }
                 }
@@ -37,21 +38,22 @@ struct DatosView: View {
                     VStack(spacing: 0){
                         Text("Peso")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "azulClaro", radio: 20))
-                        Text("29")
+                        Text(datos.peso + "\n")
+                            .padding(.top)
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "azulIntermedio", radio: 10))
                     }.padding(.bottom)
                     VStack(spacing: 0){
-                        Text("Energia")
+                        Text("Proteína")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "amarillo", radio: 20))
 
-                        Text("12 kcal")
+                        Text("\(datos.proteinas) g")
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "amarilloOscuro", radio: 10))
                     }.padding(.bottom)
                     VStack(spacing: 0){
                         Text("Hidratos de carbono")
                             .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "amarillo", radio: 20))
                         
-                        Text("(da g")
+                        Text("\(datos.carbohidratos) g")
                             .modifier(disenoDatos(colorletra: "blanco", colorFondo: "amarilloOscuro", radio: 10))
                     }
                 }
@@ -59,7 +61,7 @@ struct DatosView: View {
             VStack(spacing: 0){
              Text("Micronutrimento")
                  .modifier(disenoDatos(colorletra: "azulOscuro", colorFondo: "blanco", radio: 20))
-             Text("dsfs mg")
+                Text(datos.micronutrimento)
                  .modifier(disenoDatos(colorletra: "blanco", colorFondo: "gris", radio: 10))
             }
         }
@@ -68,6 +70,6 @@ struct DatosView: View {
 
 struct fondo_Previews: PreviewProvider {
     static var previews: some View {
-        DatosView()
+        DatosView(datos: alimentos[0].elementos[0])
     }
 }

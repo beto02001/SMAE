@@ -27,7 +27,7 @@ struct ItemGrupoView: View {
                         .foregroundColor(.white)
                         .bold()
                         .font(.title2)
-                    Text("2 porciones")
+                    Text(comidas.cantidad)
                         .foregroundColor(Color("azulClaro"))
                 }
                 Spacer()
