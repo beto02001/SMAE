@@ -77,8 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				D1287D29268E2F480044C25F /* Resources */,
+				D17677742699724B00BDBE13 /* Helpers */,
 				D1287D27268E2EEB0044C25F /* Views */,
 				D1287D26268E2EE00044C25F /* Model */,
+				D17677752699729500BDBE13 /* ViewModels */,
 				D1287D12268E2EC70044C25F /* AppDelegate.swift */,
 				D1287D14268E2EC70044C25F /* SceneDelegate.swift */,
 				D1287D18268E2EC80044C25F /* Assets.xcassets */,
@@ -101,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				D1C93670268EEC30005E1FD6 /* datos.swift */,
-				D15FD59D2694321E004AA399 /* Alimentos.swift */,
-				D1A7F7792698C1E600D5B864 /* Modificadores.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -127,6 +127,22 @@
 				D1C93672268EEE01005E1FD6 /* SMAE.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D17677742699724B00BDBE13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7F7792698C1E600D5B864 /* Modificadores.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D17677752699729500BDBE13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D15FD59D2694321E004AA399 /* Alimentos.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
