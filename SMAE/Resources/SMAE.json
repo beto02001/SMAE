@@ -168,6 +168,198 @@
                 "micronutrimento": "Fibra: 8.0 mg\nÁcido ascórbico: 31.0 mg"
             }
         ]
+    },
+    {
+        "id": 2,
+        "grupo": "Leguminosas",
+        "nombre": "Leguminosas",
+        "elementos":
+        [
+            {
+                "id": 30,
+                "nombreElelemto": "Chile chipotle seco",
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 10g \n Neto: 8g",
+                "kcal": 29,
+                "proteinas": 1.2,
+                "lipidos": 0.5,
+                "carbohidratos": 4.8,
+                "micronutrimento": "ninguno"
+            },
+            {
+                "id": 31,
+                "nombreElelemto": "Jitomate bola",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 123g \nNeto: 108g",
+                "kcal": 19,
+                "proteinas": 1.0,
+                "lipidos": 0.2,
+                "carbohidratos": 4.2,
+                "micronutrimento": "Potasio: 256 mg"
+            },
+            {
+                "id": 32,
+                "nombreElelemto": "Zanahoria miniatura cruda",
+                "cantidad": "4 piezas",
+                "peso": "Bruto: 60g \nNeto: 60g",
+                "kcal": 21,
+                "proteinas": 0.4,
+                "lipidos": 0.1,
+                "carbohidratos": 4.9,
+                "micronutrimento": "Vitamina A: 414 mg RE"
+            },
+            {
+                "id": 33,
+                "nombreElelemto": "Pimiento amarillo crudo chico",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 75g \nNeto: 64g",
+                "kcal": 17,
+                "proteinas": 0.7,
+                "lipidos": 0.1,
+                "carbohidratos": 4.0,
+                "micronutrimento": "Ácido ascórbico:116.9 mg"
+            },
+            {
+                "id": 34,
+                "nombreElelemto": "Pimiento rojo crudo chico",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 75g \nNeto: 64g",
+                "kcal": 17,
+                "proteinas": 0.7,
+                "lipidos": 0.1,
+                "carbohidratos": 4.0,
+                "micronutrimento": "Ácido ascórbico: 116.9 mg"
+            },
+            {
+                "id": 35,
+                "nombreElelemto": "calabaza cruda alargada",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 111g \nNeto: 91g",
+                "kcal": 21,
+                "proteinas": 1.6,
+                "lipidos": 0.1,
+                "carbohidratos": 3.4,
+                "micronutrimento": "Ninguno"
+            },
+            {
+                "id": 36,
+                "nombreElelemto": "Germen de alfalfa crudo",
+                "cantidad": "3 Tazas",
+                "peso": "Bruto: 99g \nNeto: 99g",
+                "kcal": 23,
+                "proteinas": 4.0,
+                "lipidos": 0.7,
+                "carbohidratos": 2.1,
+                "micronutrimento": "Ninguno"
+            },
+            {
+                "id": 37,
+                "nombreElelemto": "Nopal crudo",
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 140g \nNeto: 134g",
+                "kcal": 22,
+                "proteinas": 1.8,
+                "lipidos": 0.1,
+                "carbohidratos": 4.5,
+                "micronutrimento": "Fibra: 3.2 mg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "grupo": "Cereales",
+        "nombre": "Cereales y tuberculos",
+        "elementos":
+        [
+            {
+                "id": 40,
+                "nombreElelemto": "Chile chipotle seco",
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 10g \n Neto: 8g",
+                "kcal": 29,
+                "proteinas": 1.2,
+                "lipidos": 0.5,
+                "carbohidratos": 4.8,
+                "micronutrimento": "ninguno"
+            },
+            {
+                "id": 41,
+                "nombreElelemto": "Jitomate bola",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 123g \nNeto: 108g",
+                "kcal": 19,
+                "proteinas": 1.0,
+                "lipidos": 0.2,
+                "carbohidratos": 4.2,
+                "micronutrimento": "Potasio: 256 mg"
+            },
+            {
+                "id": 42,
+                "nombreElelemto": "Zanahoria miniatura cruda",
+                "cantidad": "4 piezas",
+                "peso": "Bruto: 60g \nNeto: 60g",
+                "kcal": 21,
+                "proteinas": 0.4,
+                "lipidos": 0.1,
+                "carbohidratos": 4.9,
+                "micronutrimento": "Vitamina A: 414 mg RE"
+            },
+            {
+                "id": 43,
+                "nombreElelemto": "Pimiento amarillo crudo chico",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 75g \nNeto: 64g",
+                "kcal": 17,
+                "proteinas": 0.7,
+                "lipidos": 0.1,
+                "carbohidratos": 4.0,
+                "micronutrimento": "Ácido ascórbico:116.9 mg"
+            },
+            {
+                "id": 44,
+                "nombreElelemto": "Pimiento rojo crudo chico",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 75g \nNeto: 64g",
+                "kcal": 17,
+                "proteinas": 0.7,
+                "lipidos": 0.1,
+                "carbohidratos": 4.0,
+                "micronutrimento": "Ácido ascórbico: 116.9 mg"
+            },
+            {
+                "id": 45,
+                "nombreElelemto": "calabaza cruda alargada",
+                "cantidad": "1 pieza",
+                "peso": "Bruto: 111g \nNeto: 91g",
+                "kcal": 21,
+                "proteinas": 1.6,
+                "lipidos": 0.1,
+                "carbohidratos": 3.4,
+                "micronutrimento": "Ninguno"
+            },
+            {
+                "id": 46,
+                "nombreElelemto": "Germen de alfalfa crudo",
+                "cantidad": "3 Tazas",
+                "peso": "Bruto: 99g \nNeto: 99g",
+                "kcal": 23,
+                "proteinas": 4.0,
+                "lipidos": 0.7,
+                "carbohidratos": 2.1,
+                "micronutrimento": "Ninguno"
+            },
+            {
+                "id": 47,
+                "nombreElelemto": "Nopal crudo",
+                "cantidad": "2 piezas",
+                "peso": "Bruto: 140g \nNeto: 134g",
+                "kcal": 22,
+                "proteinas": 1.8,
+                "lipidos": 0.1,
+                "carbohidratos": 4.5,
+                "micronutrimento": "Fibra: 3.2 mg"
+            }
+        ]
     }
 ]
 

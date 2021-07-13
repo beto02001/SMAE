@@ -14,7 +14,7 @@ struct ListaGrupoView: View {
         ScrollView{
             VStack(spacing: 0){
                 ForEach(comestibles){ come in
-                    NavigationLink(destination: DisenoItemListView(datos: come)){
+                    NavigationLink(destination:DisenoItemListView(datos: come)){
                         ItemGrupoView(comidas: come, grupo: grupo)
                     }.navigationTitle("Objetos")
                 }
