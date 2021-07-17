@@ -31,7 +31,7 @@ struct ItemGrupoView: View {
                         .foregroundColor(Color("azulClaro"))
                 }
                 Spacer()
-            }.padding(.bottom, 25)
+            }.padding(.bottom, 30)
             .padding(.leading)
         }.background(Color("azulOscuro"))
         
